@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Utsab Saha"
 title_separator          : "-"
 name                     : &name "Utsab Saha"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Incoming Ph.D. student in Electrical and Systems Engineering | Washington University in St. Louis"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://utsabbuet17.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Earth"
-  employer         : "Washington University in St. Louis"
+  employer         : #"Washington University in St. Louis"
   uri              : # URL
   email            : "sahau@wustl.edu" 
 
