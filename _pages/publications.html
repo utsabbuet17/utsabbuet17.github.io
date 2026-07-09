@@ -5,32 +5,85 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<style>
+.pub-list li {
+  margin-bottom: 1em;
+  line-height: 1.55;
+}
+.pub-links {
+  white-space: nowrap;
+}
+</style>
 
-{% include base_path %}
+<h2>Journal Articles</h2>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<ol class="pub-list">
+  <li>
+    U. Saha, P. Saha, M. J. Alam, &amp; M. Ahmed, “Toward Efficient Identification of Retinal Diseases: A Lightweight Convolutional Neural Network-Based Approach Using Optical Coherence Tomography,” <i>Healthcare Technology Letters</i>, vol. 13, no. 1, e70059, 2026. DOI: 10.1049/htl2.70059.
+    <span class="pub-links"><a href="https://doi.org/10.1049/htl2.70059">[Link]</a> <a href="CODE_LINK_HERE">[Code]</a></span>
+  </li>
+
+  <li>
+    U. Saha†, T. M. Tonoy†, &amp; H. Imtiaz, “DP-CDA: An Algorithm for Enhanced Privacy Preservation in Dataset Synthesis Through Randomized Mixing,” <i>Security and Privacy</i>, vol. 9, no. 2, e70207, 2026. DOI: 10.1002/spy2.70207.
+    <span class="pub-links"><a href="https://doi.org/10.1002/spy2.70207">[Link]</a> <a href="CODE_LINK_HERE">[Code]</a></span>
+  </li>
+
+  <li>
+    A. Bhattacharjee, K. Islam, K. Anan, A. Intesher, A. A. Fuad, U. Saha, &amp; H. Imtiaz, “CAE-Net: Generalized Deepfake Image Detection using Convolution and Attention Mechanisms with Spatial and Frequency Domain Features,” <i>Journal of Visual Communication and Image Representation</i>, vol. 115, 2025. DOI: 10.1016/j.jvcir.2025.104679.
+    <span class="pub-links"><a href="https://doi.org/10.1016/j.jvcir.2025.104679">[Link]</a> <a href="CODE_LINK_HERE">[Code]</a></span>
+  </li>
+
+  <li>
+    U. Saha†, S. D. Sammya†, P. Saha, S. A. Fattah, &amp; C. Shahnaz, “An Attention Guided Lightweight Network-Based Scheme for Anxiety Detection Using Multimodal Analysis of Single-Channel Wearable ECG and RSP Sensor Signals,” <i>IEEE Sensors Letters</i>, vol. 9, no. 5, pp. 1–4, 2025. DOI: 10.1109/LSENS.2025.3560396.
+    <span class="pub-links"><a href="https://doi.org/10.1109/LSENS.2025.3560396">[Link]</a> <a href="CODE_LINK_HERE">[Code]</a></span>
+  </li>
+
+  <li>
+    U. Saha, S. Saha, S. A. Fattah, &amp; M. Saquib, “Decoding Human Activities: Analyzing Wearable Accelerometer and Gyroscope Data for Activity Recognition,” <i>IEEE Sensors Letters</i>, vol. 8, no. 8, pp. 1–4, 2024. DOI: 10.1109/LSENS.2024.3423340.
+    <span class="pub-links"><a href="https://doi.org/10.1109/LSENS.2024.3423340">[Link]</a> <a href="CODE_LINK_HERE">[Code]</a></span>
+  </li>
+
+  <li>
+    U. Saha, S. Saha, S. A. Fattah, &amp; M. Saquib, “Npix2Cpix: A GAN-Based Image-to-Image Translation Network With Retrieval-Classification Integration for Watermark Retrieval From Historical Document Images,” <i>IEEE Access</i>, vol. 12, pp. 95857–95870, 2024. DOI: 10.1109/ACCESS.2024.3424662.
+    <span class="pub-links"><a href="https://doi.org/10.1109/ACCESS.2024.3424662">[Link]</a> <a href="CODE_LINK_HERE">[Code]</a></span>
+  </li>
+
+  <li>
+    U. Saha, A. Jawad, S. Shahria, &amp; A. B. M. H. U. Rashid, “Proximal Policy Optimization-Based Reinforcement Learning Approach for DC-DC Boost Converter Control: A Comparative Evaluation Against Traditional Control Techniques,” <i>Heliyon</i>, vol. 8, no. 18, e37823, 2024. DOI: 10.1016/j.heliyon.2024.e37823.
+    <span class="pub-links"><a href="https://doi.org/10.1016/j.heliyon.2024.e37823">[Link]</a> <a href="CODE_LINK_HERE">[Code]</a></span>
+  </li>
+
+  <li>
+    A. A. Mamun†, U. Saha†, M. H. Hasan, M. J. Alam, &amp; S. Ahmed, “Comprehensive Dataset and Signal Processing Framework for Phonocardiogram-Based Heart Rate and Blood Pressure Estimation,” 2025. [Co-lead author] — Under Review in <i>Biomedical Signal Processing and Control</i>.
+    <span class="pub-links"><a href="PAPER_LINK_HERE">[Link]</a> <a href="CODE_LINK_HERE">[Code]</a></span>
+  </li>
+
+  <li>
+    I. Ahmed†, U. Saha†, M. B. M. Murad, T. N. Islam, S. D. Sammya, T. F. Sanam, &amp; H. Imtiaz, “EnCoNet: An Ensemble-Based Synthetic Speech Attribution Scheme with Convolutional Neural Networks,” 2025. [Co-lead author] — Under Review in <i>Heliyon</i>.
+    <span class="pub-links"><a href="PAPER_LINK_HERE">[Link]</a> <a href="CODE_LINK_HERE">[Code]</a></span>
+  </li>
+</ol>
+
+<h2>Conference Papers</h2>
+
+<ol class="pub-list">
+  <li>
+    S. B. Siddiqui and U. Saha, “AudioFuse: Unified Spectral-Temporal Learning via a Hybrid ViT-1D CNN Architecture for Phonocardiogram Classification,” <i>ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing</i>, 2026, pp. 5711–5715. DOI: 10.1109/ICASSP55912.2026.11464477.
+    <span class="pub-links"><a href="https://doi.org/10.1109/ICASSP55912.2026.11464477">[Link]</a> <a href="CODE_LINK_HERE">[Code]</a></span>
+  </li>
+
+  <li>
+    U. Saha, T. M. Tonoy, &amp; H. Imtiaz, “Differentially Private Decentralized Dataset Synthesis Through Randomized Mixing with Correlated Noise,” <i>2025 IEEE International Conference on Future Machine Learning and Data Science</i>, 2025, pp. 87–92. DOI: 10.1109/FMLDS67896.2025.00023.
+    <span class="pub-links"><a href="https://doi.org/10.1109/FMLDS67896.2025.00023">[Link]</a> <a href="CODE_LINK_HERE">[Code]</a></span>
+  </li>
+
+  <li>
+    S. Saha†, U. Saha†, S. D. Sammya, S. Ahmed, &amp; S. A. Fattah, “A Siamese Based One Shot Learning Network with a Watermark Enhancement Technique for Historical Watermark Recognition,” <i>2022 IEEE Region 10 Symposium</i>, 2022, pp. 1–5. DOI: 10.1109/TENSYMP54529.2022.9864543.
+    <span class="pub-links"><a href="https://doi.org/10.1109/TENSYMP54529.2022.9864543">[Link]</a> <a href="CODE_LINK_HERE">[Code]</a></span>
+  </li>
+</ol>
+
+<p><small>† Equal contribution.</small></p>
 
 
 
