@@ -23,7 +23,7 @@ repository               : "utsabbuet17/utsabbuet17.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpeg"
+  avatar           : "profile.png"
   name             : "Utsab Saha"
   pronouns         : # example: "she/her"  
   bio              : "Incoming Ph.D. student in Electrical and Systems Engineering | Washington University in St. Louis"
