@@ -11,7 +11,7 @@ Hello! I am **Utsab Saha**. I have completed my B.Sc. and M.Sc. in Electrical an
 
 I am an incoming Ph.D. student at **Washington University in St. Louis (WashU)**, where I will join **Prof. Mark Anastasio’s Computational Imaging Science Laboratory**. My research interests are broadly centered on signal and image processing, computational imaging, medical AI, and machine learning.
 
-I am particularly interested in designing computational systems that can reliably extract meaningful patterns from complex data. My work focuses on combining signal processing principles with machine learning to develop efficient, explainable, and theoretically grounded models. I am especially drawn to applications in medical signal and image analysis, privacy-preserving learning, and resource-aware learning systems for sensitive and distributed data.
+My research interests lie in applied machine learning and deep learning for imaging science, with a particular focus on biomedical image analysis, computational imaging, and AI-driven imaging systems. I am interested in developing efficient and reliable models that can extract meaningful visual and structural information from complex biomedical data. More broadly, I aim to study imaging science from both applied and theoretical perspectives, combining AI-based methods with principled computational models to improve interpretation, reconstruction, and decision-making in medical and scientific imaging.
 
 ## News and Events
 
